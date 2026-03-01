@@ -80,7 +80,8 @@ ul {
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   flex-shrink: 0;
 }
 
@@ -341,6 +342,10 @@ ul {
   padding: 20px 24px;
   outline: 2px solid transparent;
   transition: outline-color 0.2s ease;
+}
+.contact-us__field::-moz-placeholder, .contact-us input::-moz-placeholder, .contact-us textarea::-moz-placeholder {
+  color: #1E1E1E;
+  opacity: 0.9;
 }
 .contact-us__field::placeholder,
 .contact-us input::placeholder,
@@ -681,6 +686,4 @@ ul {
     background: #E4D8D8;
   }
 }
-*/
-
-/*# sourceMappingURL=style.css.map */
+*//*# sourceMappingURL=style.css.map */
